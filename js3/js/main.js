@@ -3,4 +3,4 @@ const myVariable = "Mathematics";
 
 
 // The length property
-console.log(myVariable.slice(5, 2));
+console.log(myVariable.slice(5, 6));
