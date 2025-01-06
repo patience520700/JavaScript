@@ -3,4 +3,4 @@ const myVariable = "Mathematics";
 
 
 // String Methods
-console.log("John,Joe,Dave".split(","));
+console.log("Every good boy does fine".split(" "));
