@@ -3,4 +3,4 @@ const myVariable = "Mathematics";
 
 
 // The length property
-console.log(myVariable.toUpperCase());
+console.log(myVariable.toLowerCase());
