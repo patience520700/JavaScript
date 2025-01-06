@@ -1,6 +1,6 @@
 // Strings
-const myVariable = "Mathematic";
+const myVariable = "Mathematics";
 
 
 // The length property
-console.log("Every good boy does fine".length);
+console.log(myVariable.indexOf("mat"));
