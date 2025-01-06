@@ -3,4 +3,4 @@ const myVariable = "Mathematics";
 
 
 // The length property
-console.log(myVariable.indexOf("ath"));
+console.log(myVariable.slice(5, 8));
