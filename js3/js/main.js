@@ -3,4 +3,5 @@ const myVariable = "Mathematics";
 
 
 // The length property
-console.log(myVariable.split("e"));
+/* returns every character as a seperate string*/
+console.log(myVariable.split(""));
