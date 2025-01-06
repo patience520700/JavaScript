@@ -3,4 +3,4 @@ const myVariable = "Mathematics";
 
 
 // The length property
-console.log(myVariable.indexOf("mat"));
+console.log(myVariable.charAt(6));
