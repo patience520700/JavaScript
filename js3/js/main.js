@@ -2,5 +2,5 @@
 const myVariable = "Mathematics";
 
 
-// The length property
-console.log("John, Joe, Dave".split(""));
+// String Methods
+console.log("John,Joe,Dave".split(","));
