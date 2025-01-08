@@ -7,4 +7,4 @@ const myString = "42";
 // Number Methods
 // A Number.isInteger() method determines whether the passed value is an integer
 
-console.log(Number.isInteger( myNumber));
+console.log(Number.isInteger( myFloat));
