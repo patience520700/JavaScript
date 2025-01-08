@@ -8,4 +8,4 @@ const myFloat = 42.0;
 
 const myString = "42";
 
-console.log(myNumber === myString);
+console.log(myString + 3);
