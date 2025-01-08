@@ -9,4 +9,4 @@ const myString = "42";
 
 // The Number.parseFloat() method parses an argument and returns a floating point number. If a number cannot be parsed from the argument, it returns NaN.
 
-console.log(Number.parseFloat( myString));
+console.log(Number.parseFloat( myFloat));
