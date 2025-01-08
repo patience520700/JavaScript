@@ -1,11 +1,10 @@
 // Numbers
 
-// An integer is a whole number.
 const myNumber = 42;
-
-// A number with a decimal point is a float which references the "floating point"
-const myFloat = 42.0;
-
+const myFloat = 42.01;
 const myString = "42";
 
-console.log(Number(false));
+// Number Methods
+// A Number.isInteger() method determines whether the passed value is an integer
+
+console.log(Number.isInteger( myNumber));
