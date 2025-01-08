@@ -7,4 +7,6 @@ const myString = "42";
 // Number Methods
 // A Number.isInteger() method determines whether the passed value is an integer
 
-console.log(Number.isInteger( myFloat));
+// The Number.parseFloat() method parses an argument and returns a floating point number. If a number cannot be parsed from the argument, it returns NaN.
+
+console.log(Number.parseFloat( myString));
