@@ -1,2 +1,2 @@
 // Math Methods and Properties
-console.log(Math.pow(5, 2));
+console.log(Math.min(2, 0.5, 9));
