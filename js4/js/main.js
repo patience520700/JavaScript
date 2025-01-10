@@ -4,4 +4,6 @@
 
 //The Number.isNaN() method determines whether the passed value is NaN and its type is Number.
 
-console.log(Number.isNaN("Pat"));
+//The global isnaN() function determines whether a value is NaN or not.
+
+console.log(isNaN("Pat"));
