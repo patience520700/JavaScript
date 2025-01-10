@@ -1,7 +1,7 @@
 // Numbers
 
 const myNumber = 42;
-const myFloat = 42.01;
+const myFloat = 42.0151;
 const myString = "42.123abc";
 
 // Number Methods
@@ -11,4 +11,4 @@ const myString = "42.123abc";
 
 // The tofixed() method formats a number according to how many decimal points you provide as the parameter.
 
-console.log(Number.parseFloat(myString).toFixed(2));
+console.log(myFloat.toFixed(2));
