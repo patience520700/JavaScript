@@ -9,4 +9,4 @@ const myString = "42.123abc";
 
 // The toString() method returns a string representing the number.
 
-console.log(typeof Number.parseFloat(myFloat));
+console.log(myFloat.toString());
