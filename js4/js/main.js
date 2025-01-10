@@ -7,6 +7,6 @@ const myString = "42.123abc";
 // Number Methods
 // A Number.isInteger() method determines whether the passed value is an integer
 
-// The Number.parseInt() method parses a string argument and returns an integer
+// The toString() method returns a string representing the number.
 
-console.log(Number.parseInt(myFloat));
+console.log(Number.parseInt(myString));
