@@ -1,9 +1,5 @@
 // Numbers
 
-const myNumber = 42;
-const myFloat = 42.0151;
-const myString = "42.123abc";
+//NaN is an acronym for Not a Number
 
-//Chasing = Using several methods chained together
-
-console.log(Number.parseFloat("4.237abc").toFixed(2).toString());
+console.log(Number("Pat"));
