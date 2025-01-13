@@ -1,21 +1,24 @@
 // Conditionals: If Statements
-let testScore = 59;
-let collegeStudent = true;
-let grade;
 
-if (testScore >= 90) {
-    grade = "A";
-}else if (testScore >= 80) {
-    grade = "B"
-} else if (testScore >= 70) {
-    grade = "C"
-} else if (testScore >= 60) {
-    grade = "D"
-} else {
-    if (collegeStudent) {
-        grade = "U";
+// Decision tree!
+if (playerOne === computer) {
+    // tie game!
+} else if (playerOne === "rock"){
+    if (computer === "paper"){
+        // computer wins
     } else {
-        grade = "F";
+        //playerOne wins
+    }
+} else if (playerOne === "paper"){
+    if (computer === "scissors"){
+        // computer wins
+    } else {
+        //playerOne wins
+    }
+} else {
+    if (computer === "rock"){
+        // computer wins
+    } else {
+        //playerOne wins
     }
 }
-console.log(grade);
