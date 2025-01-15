@@ -3,7 +3,7 @@
 //syntax
 //condition ? ifTrue : ifFalse;
 
-let testScore = 40;
+let testScore = 99;
 let myGrade =
    testScore > 89
       ? "A"
