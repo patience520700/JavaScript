@@ -3,15 +3,16 @@
 //syntax
 //condition ? ifTrue : ifFalse;
 
-let testScore = 99;
-let myGrade =
-   testScore > 89
-      ? "A"
-      : testScore > 79
-      ? "B"
-      : testScore > 69
-      ? "C"
-      : testScore > 59
-      ? "D"
-      : "F";
-console.log(`My test grade is a ${myGrade}.`);
+let playerOne = "rock";
+let computer = "scissors";
+let result = 
+    playerOne === computer
+        ? "Tie game!"
+        : playerOne === "rock" && computer === 'paper'
+        ? "computer wins!"
+        : playerOne === "paper" && computer === "scissors"
+        ? "computer wins!"
+        : playerOne === "scissors" && computer === "rock"
+        ? "computer wins!"
+        : "playerOne wins!";
+console.log(result);
