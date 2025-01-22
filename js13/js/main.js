@@ -1,12 +1,11 @@
 // Functions
 
+// Functions provide reusable code
+
 // Function Declaration Syntax:
 
-function sum(num1, num2) {
-    if (num2 === undefined) {
-        return num1 + num1;
-    }
-    return num1 + num2;
-}
+const toProperCase = (name) => {
+    return name.charAt(0).toUpperCase() + name.slice(1).toLowerCase();
+};
 
-console.log(sum(5, 10));
+console.log(toProperCase("september"));
