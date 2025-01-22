@@ -1,10 +1,4 @@
 // Loops
-let myNumber = 50;
-while (myNumber < 50) {
-    myNumber += 2;
-    console.log(myNumber);
+for (let i = 1; i <= 10; i++) {
+    console.log(i)
 }
-
-do {
-    console.log(myNumber);
-} while (myNumber < 50);
