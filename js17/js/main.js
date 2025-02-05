@@ -1,17 +1,21 @@
 // Objects
 // key-value pairs in curly braces
-const myObj = { name: "Dave"};
-
-const anotherObj = {
-    alive: true,
-    answer: 42,
-    hobbies: ["Eat", "Sleep", "Code"],
-    beverage: {
-        morning: "Coffee",
-        afternoon: "Iced Tea"
-    },
-    action: function() {
-        return `Time for ${this.beverage.morning}`;
+const vehicle = {
+    wheels: 4,
+    engine: function () {
+        return "Vrroooom!";
     }
+}
+const car = Object.create(vehicle);
+car.doors = 4;
+car.engine = function () { 
+    return "Whoooosh!";
 };
-console.log(anotherObj.action());
+console.log(car.engine());
+console.log(car.wheels);
+const tesla = Object.create(car);
+console.log(tesla.wheels);
+tesla.engine = function () {
+    return "Shhhhh...";
+};
+console.log(tesla.engine());
