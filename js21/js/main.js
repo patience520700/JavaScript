@@ -70,5 +70,5 @@ const createDivs = (parent, iter) => {
 }
 // createDivs(view2, 10);
 for (let i = 1; i <= 12; i++) {
-    createDivs(view2, i);
+    createDivs(view2, i)
 }
